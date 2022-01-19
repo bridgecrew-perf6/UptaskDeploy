@@ -2,7 +2,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
 //We will need the models folder to check passport agains
-const Usuarios = require('../models/Usuarios');
+const Usuarios = require('../models/usuarios');
 
 // Local Strategy - login con credenciales propias
 // Local Strategy - login con credenciales propias
