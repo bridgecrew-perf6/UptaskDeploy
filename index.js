@@ -8,7 +8,7 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const passport = require('./config/passport');
 //importar las variables
-require('dotenv').config({ path: 'variables.env' })
+require('dotenv').config({ path: '.env' })
 
 //helpers
 const helpers = require('./helpers');

@@ -70,7 +70,7 @@ exports.proyectoPorUrl = async (req, res) => {
 
     const tareas = await Tareas.findAll({
         where: {
-            proyectoId: proyecto.id
+            poyectoId: proyecto.id
         },
         // include: [
         //     { model: Proyectos }
