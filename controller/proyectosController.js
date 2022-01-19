@@ -1,4 +1,3 @@
-const { render } = require('express/lib/response');
 const Proyectos = require('../models/proyecto');
 const Tareas = require('../models/Tareas');
 
@@ -154,7 +153,7 @@ exports.eliminarProyecto = async (req, res, next) => {
             url: urlProyecto
         }
     });
-    if (!resultado) {
+    if (!respuesta) {
         return next();
     }
     res.send('Proyecto elimindado correctamente');
